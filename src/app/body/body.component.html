@@ -1,0 +1,14 @@
+<div class="center" >
+    <h3>{{imagetitle}}</h3>
+    <hr>
+    <img  class="img-responsive" [src]="dataBindindImg" alt="Responsive image" />
+    <hr>
+    <button (click)="changetitle()">Set Title</button>
+    <hr>
+    <input type="text"
+    placeholder="Type to set title"
+    class="form-control"
+    [(ngModel)]="imagetitle">
+    <hr>
+   
+</div>
